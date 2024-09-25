@@ -16,6 +16,7 @@
 		A55F43C32C7D6A4A00324BF6 /* LinkedIn_DesignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55F43C22C7D6A4A00324BF6 /* LinkedIn_DesignTests.swift */; };
 		A55F43CD2C7D6A4A00324BF6 /* LinkedIn_DesignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55F43CC2C7D6A4A00324BF6 /* LinkedIn_DesignUITests.swift */; };
 		A55F43CF2C7D6A4A00324BF6 /* LinkedIn_DesignUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55F43CE2C7D6A4A00324BF6 /* LinkedIn_DesignUITestsLaunchTests.swift */; };
+		A56FBD572CA4A7BA00F6FFAA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56FBD562CA4A7BA00F6FFAA /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A55F43C82C7D6A4A00324BF6 /* LinkedIn DesignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LinkedIn DesignUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A55F43CC2C7D6A4A00324BF6 /* LinkedIn_DesignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedIn_DesignUITests.swift; sourceTree = "<group>"; };
 		A55F43CE2C7D6A4A00324BF6 /* LinkedIn_DesignUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedIn_DesignUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A56FBD562CA4A7BA00F6FFAA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				A55F43B42C7D6A4A00324BF6 /* Assets.xcassets */,
 				A55F43B62C7D6A4A00324BF6 /* LaunchScreen.storyboard */,
 				A55F43B92C7D6A4A00324BF6 /* Info.plist */,
+				A56FBD562CA4A7BA00F6FFAA /* HomeViewController.swift */,
 			);
 			path = "LinkedIn Design";
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				A55F43B02C7D6A4800324BF6 /* ViewController.swift in Sources */,
 				A55F43AC2C7D6A4800324BF6 /* AppDelegate.swift in Sources */,
 				A55F43AE2C7D6A4800324BF6 /* SceneDelegate.swift in Sources */,
+				A56FBD572CA4A7BA00F6FFAA /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

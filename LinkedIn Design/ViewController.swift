@@ -9,9 +9,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var email: UILabel!
+    let userDefault = UserDefaults.standard
     @IBOutlet weak var passwordTF: UITextField!
-    @IBOutlet weak var passwordLabel: UILabel!
+
     @IBOutlet weak var emailTF: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,15 +22,11 @@ class ViewController: UIViewController {
     @IBAction func signInButton(_ sender: UIButton) {
         
         
-        let userDefault = UserDefaults.standard
         userDefault.set(emailTF.text, forKey: "email")
         userDefault.set(passwordTF.text, forKey: "password")
-        if let email = userDefault.string(forKey: "email"), let password = userDefault.string(forKey: "password") {
-            self.email.text = email
-            self.passwordLabel.text = password
-            print("Email: \(email)")
-            print("Password: \(password)")
-        }
+        
+        guard let cell = storyboard?.instantiateViewController(withIdentifier: "HomeViewController") as? HomeViewController else {return}
+        navigationController?.pushViewController(cell, animated: true)
     }
     
 }
